@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - ONG Luz do Amanhã</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <img src="assets/img/logo.png" alt="Logotipo da ONG Luz do Amanhã" width="150">
+        
+        
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Nossas Ações</a></li>
-                <li><a href="cadastro.html">Participe</a></li>
+
+                <li class="dropdown"><a href="">Serviços</a>
+                    <div class="dropdown-menu">
+                     <a href="projetos.html">Nossas Ações</a>
+                     <a href="cadastro.html">Participe</a>
+                     <a href="contato.html">Fale Conosco</a>
+                    </div>
+                </li>
+                <li><a href="contato.html">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
@@ -21,7 +32,7 @@
     <main>
         <section id="sobre-organizacao">
             <h1>ONG Luz do Amanhã: Iluminando Caminhos</h1>
-            <p>Somos uma organização não governamental dedicada a criar um futuro mais justo e sustentável. Nossa missão se baseia nos pilares de **Solidariedade, Educação e Meio Ambiente**, transformando vidas e comunidades em situação de vulnerabilidade.</p>
+        <p>Somos uma organização não governamental dedicada a criar um futuro mais justo e sustentável. Nossa missão se baseia nos pilares de <strong>Solidariedade, Educação e Meio Ambiente</strong>, transformando vidas e comunidades em situação de vulnerabilidade.</p>
             
             <figure>
                 <img src="assets/img/acao-luz.jpg" alt="Foto de uma ação social da ONG em campo" width="600">
@@ -31,9 +42,9 @@
             <h2>Nossos Pilares</h2>
             <p>Trabalhamos incansavelmente para promover:</p>
             <ul>
-                <li>**Solidariedade:** Apoio direto e humanitário a quem mais precisa.</li>
-                <li>**Educação:** Acesso ao conhecimento para quebrar o ciclo da pobreza.</li>
-                <li>**Meio Ambiente:** Conscientização e ações práticas de sustentabilidade.</li>
+                <li><strong>Solidariedade:</strong> Apoio direto e humanitário a quem mais precisa.</li>
+                <li><strong>Educação:</strong> Acesso ao conhecimento para quebrar o ciclo da pobreza.</li>
+                <li><strong>Meio Ambiente:</strong> Conscientização e ações práticas de sustentabilidade.</li>
             </ul>
         </section>
 
@@ -49,7 +60,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 - ONG Luz do Amanhã. Construindo um futuro sustentável e solidário.</p>
+        <p class="paragrafo-footer">&copy; 2024 - ONG Luz do Amanhã. Construindo um futuro sustentável e solidário.</p>
     </footer>
 </body>
 </html>
