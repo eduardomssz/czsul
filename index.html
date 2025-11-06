@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+        <button id="toggle-contrast" aria-label="Ativar ou desativar modo de alto contraste">
+    🌓 Alto Contraste
+        </button>
         <img src="assets/img/logo.png" alt="Logotipo da ONG Luz do Amanhã" width="150">
         <nav>
             <ul>
@@ -16,9 +19,9 @@
 
                 <li class="dropdown"><a href="#" data-target="projetos">Serviços</a>
                     <div class="dropdown-menu">
-                       <a href="#" data-target="projetos">Nossas Ações</a>
-                       <a href="#" data-target="cadastro">Participe</a>
-                       <a href="#" data-target="contato">Fale Conosco</a>
+                        <a href="#" data-target="home" aria-expanded="true">Home</a>
+                        <a href="#" data-target="projetos" aria-expanded="false">Projetos</a>
+                        <a href="#" data-target="contato" aria-expanded="false">Contato</a>
                     </div>
                 </li>
                 <li><a href="#" data-target="contato">Fale Conosco</a></li>
