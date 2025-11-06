@@ -38,7 +38,7 @@ O site foi desenvolvido com foco em **simplicidade, inclusão digital e otimiza�
 
 O repositório foi configurado seguindo o **GitFlow**, com:
 - Branches `main` e `dev`;
-- Commits semânticos (ex: `feat: adicionar modo de alto contraste`);
+- Commits semânticos 
 - Uso de Pull Requests e Issues para controle de melhorias;
 - Sistema de **releases** com versionamento semântico (ex: `v1.0.0`).
 
@@ -58,7 +58,7 @@ O repositório foi configurado seguindo o **GitFlow**, com:
 ## 🚀 Deploy
 
 > 🔗 **Link do site hospedado (GitHub Pages):**  
-> _(adicione aqui o link após publicar o repositório)_
+> _([**ONG Luz do Amanhã**](https://eduardomssz.github.io/czsul/))_
 
 ---
 
